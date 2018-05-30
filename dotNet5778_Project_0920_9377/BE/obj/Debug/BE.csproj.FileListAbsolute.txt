@@ -1,0 +1,17 @@
+Z:\c# project\dotNet5778_Project_0920_9377\BE\bin\Debug\BE.dll
+Z:\c# project\dotNet5778_Project_0920_9377\BE\bin\Debug\BE.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.dll
+Z:\c# project\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\BE\bin\Debug\BE.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\BE\bin\Debug\BE.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\BE\bin\Debug\BE.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\BE\bin\Debug\BE.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache

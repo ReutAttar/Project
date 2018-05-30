@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Contracts>
+  <contract>
+    <ContractNumber>100001</ContractNumber>
+    <NannyID>208493965</NannyID>
+    <ChildID>6789</ChildID>
+    <MotherID>123</MotherID>
+    <Interview>true</Interview>
+    <ContractSigned>true</ContractSigned>
+    <Payment>false</Payment>
+    <TotalPay>14112</TotalPay>
+    <AnotherChild>true</AnotherChild>
+    <EmploymentHours>
+      <Day Day="Sunday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Monday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Tuesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Wednesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Thursday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+    </EmploymentHours>
+    <StartEmployment>2018-01-01T00:00:00</StartEmployment>
+    <EndEmployment>2018-03-01T00:00:00</EndEmployment>
+    <TotalHours>240</TotalHours>
+  </contract>
+  <contract>
+    <ContractNumber>100002</ContractNumber>
+    <NannyID>208493965</NannyID>
+    <ChildID>770</ChildID>
+    <MotherID>123</MotherID>
+    <Interview>true</Interview>
+    <ContractSigned>true</ContractSigned>
+    <Payment>true</Payment>
+    <TotalPay>29400</TotalPay>
+    <AnotherChild>true</AnotherChild>
+    <EmploymentHours>
+      <Day Day="Sunday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Monday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Tuesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Wednesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Thursday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+    </EmploymentHours>
+    <StartEmployment>2018-02-01T00:00:00</StartEmployment>
+    <EndEmployment>2018-08-01T00:00:00</EndEmployment>
+    <TotalHours>240</TotalHours>
+  </contract>
+</Contracts>

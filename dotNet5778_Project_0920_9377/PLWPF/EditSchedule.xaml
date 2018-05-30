@@ -1,0 +1,55 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.EditSchedule"
+        mc:Ignorable="d"    
+        Title="EditSchedule" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="checkSunday"  Padding="10" FontSize="18" Content="Sunday:" IsChecked="{Binding MyCheckedMode, Mode=TwoWay}" />
+            <CheckBox x:Name="checkMonday" Grid.Row="1" Padding="10" FontSize="18" Content="Monday:" IsChecked="{Binding MyCheckedMode, Mode=TwoWay}"/>
+            <CheckBox x:Name="checkTuesday" Grid.Row="2" Padding="10" FontSize="18"  Content="Tuesday:" IsChecked="{Binding MyCheckedMode, Mode=TwoWay}" />
+            <CheckBox x:Name="checkWednesday" Grid.Row="3" Padding="10" FontSize="18"  Content="Wednesday:" IsChecked="{Binding MyCheckedMode, Mode=TwoWay}"/>
+            <CheckBox x:Name="checkThursday" Grid.Row="4" Padding="10" FontSize="18"  Content="Thursday:" IsChecked="{Binding MyCheckedMode, Mode=TwoWay}" />
+
+            <TextBox x:Name="startSunday" Grid.Column="1" TextWrapping="Wrap" TextChanged="startSunday_TextChanged"  Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkSunday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+            <TextBox x:Name="endSunday" Grid.Column="2" TextWrapping="Wrap" TextChanged="endSunday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkSunday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center" />
+            <TextBox x:Name="startMonday" Grid.Column="1" HorizontalAlignment="Stretch" TextChanged="startMonday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkMonday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+            <TextBox x:Name="endMonday"  Grid.Column="2" HorizontalAlignment="Stretch" TextChanged="endMonday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkMonday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+            <TextBox x:Name="startTuesday" Grid.Column="1" HorizontalAlignment="Stretch" TextChanged="startTuesday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Grid.Row="2" TextWrapping="Wrap"  VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkTuesday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+            <TextBox x:Name="endTuesday" Grid.Column="2" HorizontalAlignment="Stretch" TextChanged="endTuesday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Grid.Row="2" TextWrapping="Wrap"  VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkTuesday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+            <TextBox x:Name="startWednesday" Grid.Column="1" HorizontalAlignment="Stretch" TextChanged="startWednesday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkWednesday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+            <TextBox x:Name="endWednesday" Grid.Column="2" HorizontalAlignment="Stretch" TextChanged="endWednesday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkWednesday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+            <TextBox x:Name="startThursday" Grid.Column="1" HorizontalAlignment="Stretch" TextChanged="startThursday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Grid.Row="4" TextWrapping="Wrap"  VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkThursday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+            <TextBox x:Name="endThursday" Grid.Column="2" HorizontalAlignment="Stretch" TextChanged="endThursday_TextChanged" Validation.ErrorTemplate="{StaticResource validationErrorTemplate}" Grid.Row="4" TextWrapping="Wrap"  VerticalAlignment="Stretch" IsEnabled="{Binding ElementName=checkThursday, Path=IsChecked, Mode=TwoWay}" TextAlignment="Center"/>
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button  Content="OK" Click="Button_Click" Grid.ColumnSpan="2" Margin="10"/>
+            <!--<Button Grid.Column="1"  Content="Cancel"/>-->
+        </Grid>
+    </Grid>
+</Window>

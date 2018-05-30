@@ -1,0 +1,29 @@
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\bin\Debug\DAL.dll
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\bin\Debug\DAL.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\bin\Debug\BE.dll
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\bin\Debug\DS.dll
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\bin\Debug\BE.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\bin\Debug\DS.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.dll
+Z:\c# project\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\bin\Debug\DAL.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\bin\Debug\DAL.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\bin\Debug\BE.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\bin\Debug\DS.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\bin\Debug\BE.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\bin\Debug\DS.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\bin\Debug\DAL.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\bin\Debug\DAL.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\bin\Debug\BE.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\bin\Debug\DS.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\bin\Debug\BE.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\bin\Debug\DS.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\DAL\obj\Debug\DAL.pdb

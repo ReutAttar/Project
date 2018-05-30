@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mothers>
+  <mother>
+    <ID>123</ID>
+    <FirstName>Sarah</FirstName>
+    <Lastname>choen</Lastname>
+    <Tel>01233477</Tel>
+    <PersonAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Beit Ha-Defus</Street>
+      <Number>7</Number>
+    </PersonAddress>
+    <TelHome>67767678</TelHome>
+    <GoalAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Kiryat Moshe</Street>
+      <Number>12</Number>
+    </GoalAddress>
+    <HoursNeed>
+      <Day Day="Sunday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Monday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Tuesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Wednesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Thursday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+    </HoursNeed>
+    <MotherAccount>
+      <AccountNumber>222</AccountNumber>
+      <BankName>Yahav</BankName>
+      <BankAdress>gf 3, jer, dd
+ </BankAdress>
+      <BranchNumber>0</BranchNumber>
+      <Balance>0</Balance>
+    </MotherAccount>
+  </mother>
+  <mother>
+    <ID>456</ID>
+    <FirstName>inbal</FirstName>
+    <Lastname>garbi</Lastname>
+    <Tel>09934235</Tel>
+    <PersonAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Beit Ha-Defus</Street>
+      <Number>10</Number>
+    </PersonAddress>
+    <TelHome>67767678</TelHome>
+    <GoalAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Kiryat Moshe</Street>
+      <Number>20</Number>
+    </GoalAddress>
+    <HoursNeed>
+      <Day Day="Sunday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Monday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Tuesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Wednesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Thursday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+    </HoursNeed>
+    <MotherAccount>
+      <AccountNumber>222</AccountNumber>
+      <BankName>Yahav</BankName>
+      <BankAdress>gf 3, jer, dd
+ </BankAdress>
+      <BranchNumber>0</BranchNumber>
+      <Balance>0</Balance>
+    </MotherAccount>
+  </mother>
+  <mother>
+    <ID>789</ID>
+    <FirstName>orly</FirstName>
+    <Lastname>kirsh</Lastname>
+    <Tel>0794332</Tel>
+    <PersonAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Beit Ha-Defus</Street>
+      <Number>12</Number>
+    </PersonAddress>
+    <TelHome>02994853</TelHome>
+    <GoalAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Kiryat Moshe</Street>
+      <Number>22</Number>
+    </GoalAddress>
+    <HoursNeed>
+      <Day Day="Sunday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Monday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Tuesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Wednesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Thursday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+    </HoursNeed>
+    <MotherAccount>
+      <AccountNumber>222</AccountNumber>
+      <BankName>Yahav</BankName>
+      <BankAdress>gf 3, jer, dd
+ </BankAdress>
+      <BranchNumber>0</BranchNumber>
+      <Balance>0</Balance>
+    </MotherAccount>
+  </mother>
+  <mother>
+    <ID>1954</ID>
+    <FirstName>chani</FirstName>
+    <Lastname>shpiner</Lastname>
+    <Tel>02842114</Tel>
+    <PersonAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Kiryat Moshe</Street>
+      <Number>24</Number>
+    </PersonAddress>
+    <TelHome>32400</TelHome>
+    <GoalAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Kiryat Moshe</Street>
+      <Number>18</Number>
+    </GoalAddress>
+    <HoursNeed>
+      <Day Day="Sunday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Monday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Tuesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Wednesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Thursday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+    </HoursNeed>
+    <MotherAccount>
+      <AccountNumber>222</AccountNumber>
+      <BankName>Yahav</BankName>
+      <BankAdress>gf 3, jer, dd
+ </BankAdress>
+      <BranchNumber>0</BranchNumber>
+      <Balance>0</Balance>
+    </MotherAccount>
+  </mother>
+</mothers>

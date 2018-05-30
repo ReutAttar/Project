@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nannys>
+  <nanny>
+    <ID>208493965</ID>
+    <FirstName>chaya</FirstName>
+    <Lastname>bar</Lastname>
+    <Tel>025800856</Tel>
+    <PersonAddress>
+      <City>Jerusalem</City>
+      <Country>Israel</Country>
+      <Street>Beit Ha-Defus</Street>
+      <Number>12</Number>
+    </PersonAddress>
+    <Birthday>1988-02-02T00:00:00</Birthday>
+    <Floor>8</Floor>
+    <Elevator>true</Elevator>
+    <Experience>5</Experience>
+    <MaxChildrens>2</MaxChildrens>
+    <MaxChildrensAge>24</MaxChildrensAge>
+    <MinChildrensAge>3</MinChildrensAge>
+    <RateForHour>30</RateForHour>
+    <SalaryForMonth>5000</SalaryForMonth>
+    <WorkHours>
+      <Day Day="Sunday">
+        <Start>600</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Monday">
+        <Start>600</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Tuesday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+      <Day Day="Wednesday">
+        <Start>700</Start>
+        <End>2000</End>
+      </Day>
+      <Day Day="Thursday">
+        <Start>700</Start>
+        <End>1900</End>
+      </Day>
+    </WorkHours>
+    <VacationDays>true</VacationDays>
+    <MyRecommendations>good</MyRecommendations>
+    <NannyAccount>
+      <AccountNumber>222</AccountNumber>
+      <BankName>Yahav</BankName>
+      <BankAdress>gf 3, d, dd
+ </BankAdress>
+      <BranchNumber>0</BranchNumber>
+      <Balance>0</Balance>
+    </NannyAccount>
+    <range>3-24</range>
+  </nanny>
+</nannys>

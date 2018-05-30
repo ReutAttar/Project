@@ -1,0 +1,155 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.AddContractWindow"
+        mc:Ignorable="d"
+        Title="Add Contract Window" Height="400" Width="450" >
+    <Grid>
+        <ScrollViewer >
+            <Grid x:Name="grid1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Mother ID:" Margin="3" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <ComboBox x:Name="motherIDComboBox" Margin="3" Grid.Column="1" SelectionChanged="motherIDComboBox_SelectionChanged">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid d:DataContext="{d:DesignInstance Type=BE:Mother}" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Name: " Foreground="Firebrick" FontWeight="Bold"/>
+                                <TextBlock Grid.Column="1" Text="{Binding Path=FirstName}" />
+                                <TextBlock Grid.Column="2" Text=": "/>
+                                <TextBlock Grid.Column="3" Text="{Binding Path=Lastname}" />
+                                <TextBlock Grid.Column="4" Text=" ID: " Foreground="Firebrick" FontWeight="Bold"/>
+                                <TextBlock Grid.Column="5" Text="{Binding Path=ID}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Label Content="Child ID:" Grid.Row="1" Margin="3" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <ComboBox x:Name="childIDComboBox" ItemsSource="{Binding childID}" SelectionChanged="childIDComboBox_SelectionChanged" Grid.Row="1" Margin="3" Grid.Column="1">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid d:DataContext="{d:DesignInstance Type=BE:Child}" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Name: " Foreground="Firebrick" FontWeight="Bold"/>
+                                <TextBlock Grid.Column="1" Text="{Binding Path=FirstName}" />
+                                <TextBlock Grid.Column="2" Text=": "/>
+                                <TextBlock Grid.Column="3" Text="{Binding Path=Lastname}" />
+                                <TextBlock Grid.Column="4" Text=" ID: " Foreground="Firebrick" FontWeight="Bold"/>
+                                <TextBlock Grid.Column="5" Text="{Binding Path=ID}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Button x:Name="constraintsButton" Content="Add your constraints" Grid.Row="2" Grid.ColumnSpan="2" Margin="50,10" Click="constraintsButton_Click" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <Label Content="Nanny ID:" Grid.Row="3" Margin="3" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <ComboBox x:Name="nannyIDComboBox" Grid.Row="3" Margin="3" ItemsSource="{Binding NannyID}" SelectionChanged="nannyIDComboBox_SelectionChanged" Grid.Column="1">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid d:DataContext="{d:DesignInstance Type=BE:Nanny}" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="Name: " Foreground="Firebrick" FontWeight="Bold"/>
+                                <TextBlock Grid.Column="1" Text="{Binding Path=FirstName}" />
+                                <TextBlock Grid.Column="2" Text=": "/>
+                                <TextBlock Grid.Column="3" Text="{Binding Path=Lastname}" />
+                                <TextBlock Grid.Column="4" Text=" ID: " Foreground="Firebrick" FontWeight="Bold"/>
+                                <TextBlock Grid.Column="5" Text="{Binding Path=ID}" />
+                                <TextBlock Grid.Column="6" Text=" rate: " Foreground="Firebrick" FontWeight="Bold"/>
+                                <TextBlock Grid.Column="7" Text="{Binding Path=averageRate}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Label Content="Another Child:" Grid.Row="4" Margin="3" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <CheckBox x:Name="anotherChildCheckBox" Grid.Row="4" Margin="3" IsChecked="{Binding AnotherChild}" Grid.Column="1"/>
+                <Label Content="Interview:"  Grid.Row="5" Margin="3" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <CheckBox x:Name="interviewCheckBox" Grid.Row="5" Margin="3" IsChecked="{Binding Interview}" Grid.Column="1"/>
+                <Label Content="Start Employment:" Grid.Row="6" Margin="3" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <DatePicker x:Name="startEmploymentDatePicker" SelectedDate="{Binding StartEmployment}" Grid.Row="6" Margin="3" Grid.Column="1"/>
+                <Label Content="End Employment:" Grid.Row="7" Margin="3" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <DatePicker x:Name="endEmploymentDatePicker" SelectedDate="{Binding EndEmployment}" Grid.Row="7" Margin="3" Grid.Column="1"/>
+                <Label Content="How do you want to pay?" Grid.Row="8" Margin="3" FontFamily="Monotype Corsiva" FontSize="18" />
+                <CheckBox Content="by month" x:Name="monthCheckBox" Click="monthCheckBox_Click" Grid.Row="8" Margin="10" Grid.Column="1"/>
+                <CheckBox Content="by hour" x:Name="hourCheckBox" Click="hourCheckBox_Click" Grid.Row="8" Margin="100,10,50,5" Grid.Column="1" />
+                <Label Content="Contract Signed:" Grid.Row="9" Margin="3" FontFamily="Monotype Corsiva" FontSize="18"/>
+                <CheckBox  x:Name="contractSignedCheckBox"  Grid.Row="9" Margin="15" IsChecked="{Binding ContractSigned}" Grid.Column="1"/>
+                <Button x:Name="Add_Button" Content="Add" Grid.Row="10" Margin="5" Grid.ColumnSpan="2" Click="Add_Button_Click" FontFamily="Monotype Corsiva" FontSize="18">
+                    <Button.Style>
+                        <Style>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=motherIDComboBox, Path=SelectionBoxItem}" Value="">
+                                    <Setter Property="Button.IsEnabled" Value="false"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ElementName=childIDComboBox, Path=SelectionBoxItem}" Value="">
+                                    <Setter Property="Button.IsEnabled" Value="false"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ElementName=nannyIDComboBox, Path=SelectionBoxItem}" Value="">
+                                    <Setter Property="Button.IsEnabled" Value="false"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ElementName=startEmploymentDatePicker,Path=SelectedDate}" Value="">
+                                    <Setter Property="Button.IsEnabled" Value="false"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ElementName=endEmploymentDatePicker,Path=SelectedDate}" Value="">
+                                    <Setter Property="Button.IsEnabled" Value="false"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ElementName=contractSignedCheckBox, Path=IsChecked }" Value="false">
+                                    <Setter Property="Button.IsEnabled" Value="false"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,219 @@
+﻿<Window x:Class="PLWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="Main Window" Height="580" Width="800" Icon="image/nanny.png">
+    <Grid>
+        <TabControl>
+            <TabControl.Items>
+                <TabItem Header="Main" Width="100" FontFamily="Monotype Corsiva" HorizontalAlignment="Center" FontSize="20" Foreground="#FF0B997F" >
+                    <Grid>
+                        <Grid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FF61DEBC" Offset="1"/>
+                                <GradientStop Color="White"/>
+                            </LinearGradientBrush>
+                        </Grid.Background>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6*"/>
+                            <ColumnDefinition Width="4*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock x:Name="textBlock" Text="Welcome to: Nanny For You" FontSize="72" TextWrapping="Wrap" FontFamily="Monotype Corsiva" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,134,38,161" Height="240" Width="412" Foreground="#FF105B4D"  />
+                        <Image x:Name="image" Grid.Column="1" Source="image/nanny.png" Margin="10,36,10,40"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Mother" Width="100" FontFamily="Monotype Corsiva" HorizontalAlignment="Center" FontSize="20" Foreground="#FF0B997F">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Column="0" Grid.RowSpan="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.Background>
+                                <ImageBrush ImageSource="image/icon_mother.jpg" Opacity="0.5" />
+                            </Grid.Background>
+                            <TextBlock Text="Mother" FontWeight="Bold" FontSize="48" FontFamily="Monotype Corsiva" Width="180"  TextDecorations="Underline"  Foreground="#FF0B997F" Margin="93,20,120,34" TextAlignment="Center" />
+                            <Button x:Name="AddMotherButton" Content="Add" Grid.Row="1" Margin="25" FontSize="30" Width="100" Click="AddMotherButton_Click" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}" />
+                            <Button x:Name="DeleteMotherButton" Content="Delete"  Grid.Row="2" Margin="25" FontSize="30" Width="100" Click="DeleteMotherButton_Click" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" />
+                            <Button x:Name="UpdateMotherButton" Content="Update" Grid.Row="3" Margin="25" FontSize="30" Width="110" Click="UpdateMotherButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" />
+                            <Button x:Name="GetMothersList" Grid.Row="4" Margin="25" FontSize="30" Width="250" Click="GetMothersList_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold">
+                                <TextBlock Text="Get Mothers List" TextWrapping="Wrap" TextAlignment="Center" />
+                            </Button>
+                        </Grid>
+
+                        <Grid Grid.Column="1" Grid.RowSpan="6">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.Background>
+                                <ImageBrush ImageSource="image/icon_child.jpg" Opacity="0.5"  />
+                            </Grid.Background>
+                            <TextBlock Text="Child" FontSize="48" FontFamily="Monotype Corsiva" HorizontalAlignment="Center" VerticalAlignment="Center" TextDecorations="Underline"  Foreground="#FF0B997F" FontWeight="Bold" Margin="159,20,124,16" Width="110" Height="58" />
+                            <Button x:Name="AddChildButton" Content="Add"  Grid.Row="1" Margin="20" FontSize="30" Width="100" Click="AddChildButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold"  />
+                            <Button x:Name="DeleteChildButton" Content="Delete"  Grid.Row="2" Margin="20" FontSize="30" Width="100" Click="DeleteChildButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold"/>
+                            <Button x:Name="UpdateChildButton" Content="Update"  Grid.Row="3" Margin="20" FontSize="30" Width="110" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Click="UpdateChildButton_Click"/>
+                            <Button x:Name="GetChildsListByMother" Grid.Row="4" Margin="3" FontSize="30" Width="350" Click="GetChildsListByMother_Click" Background="{x:Null}" BorderBrush="{x:Null}" >
+                                <TextBlock Text="Get Childs List By Mother" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Bold" />
+                            </Button>
+                            <Button x:Name="GetChildsList" Grid.Row="5" Margin="20" FontSize="30" Width="200" Click="GetChildsList_Click" Background="{x:Null}" BorderBrush="{x:Null}">
+                                <TextBlock Text="Get Childs List" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Bold" />
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Nanny" Width="100" FontFamily="Monotype Corsiva" HorizontalAlignment="Center" FontSize="20" Foreground="#FF0B997F">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.Background>
+                            <ImageBrush ImageSource="image/babysitting.jpg" Opacity="0.8"  ></ImageBrush>
+                        </Grid.Background>
+                        <Button x:Name="AddNannyButton" Content="Add" Margin="25" FontSize="36" Width="150" Click="AddNannyButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" />
+                        <Button x:Name="DeleteNannyButton" Content="Delete"  Grid.Row="1" Margin="25" FontSize="36" Width="150" Click="DeleteNannyButton_Click" Background="{x:Null}" FontWeight="Bold" BorderBrush="{x:Null}"/>
+                        <Button x:Name="UpdateNannyButton" Content="Update" Grid.Row="2" Margin="25" FontSize="36" Width="150" Click="UpdateNannyButton_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold"/>
+                        <Button x:Name="GetNannysList" Grid.Row="3" Margin="25" FontSize="36" Width="250" Click="GetNannysList_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold">
+                            <TextBlock Text="Get Nannys List" TextWrapping="Wrap" TextAlignment="Center" />
+                        </Button>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Contract" Width="120" FontFamily="Monotype Corsiva" HorizontalAlignment="Center" FontSize="20" Foreground="#FF0B997F">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.Background>
+                            <ImageBrush ImageSource="image/contract.png" Opacity="0.6"  ></ImageBrush>
+                        </Grid.Background>
+                        <Button x:Name="AddContractButton" Content="Add" Margin="25" FontSize="36" Width="150" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Click="AddContractButton_Click"  />
+                        <Button x:Name="DeleteContractButton" Content="Delete"  Grid.Row="1" Margin="25" FontSize="36" Width="150" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="DeleteContractButton_Click"/>
+                        <Button x:Name="UpdateContractButton" Content="Update" Grid.Row="2" Margin="25" FontSize="36" Width="150" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="UpdateContractButton_Click"/>
+                        <Button x:Name="GetContractsList" Grid.Row="3" Margin="25" FontSize="36" Width="260" Click="GetContractsList_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" >
+                            <TextBlock Text="Get Contracts List" TextWrapping="Wrap" TextAlignment="Center" />
+                        </Button>
+                        <Button x:Name="RateNannyButton" Content="Rate Nanny" Grid.Row="4" Margin="25" FontSize="36" Width="180" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="RateNannyButton_Click"/>
+
+                    </Grid>
+                </TabItem>
+
+                <TabItem Header="Grouping" Width="108" FontFamily="Monotype Corsiva" HorizontalAlignment="Center" FontSize="20" Foreground="#FF0B997F">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ContentControl x:Name="page" Grid.Row="1" BorderBrush="Black" BorderThickness="2"/>
+
+                        <WrapPanel>
+                            <Button x:Name="GroupNannyByChildAge" Background="{x:Null}" BorderBrush="DarkCyan" Height="40" Width="170" Click="GroupNannyByChildAge_Click" >
+                                <TextBlock Text="Nanny by child age " FontSize="20" TextWrapping="Wrap" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" />
+                            </Button>
+                            <Button x:Name="GroupNannyByAddress" Background="{x:Null}" BorderBrush="DarkCyan" Height="40" Width="170" Click="GroupNannyByAddress_Click" >
+                                <TextBlock Text="Nanny By Address" FontSize="20" TextWrapping="Wrap" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" />
+                            </Button>
+                            <Button x:Name="GroupNannyByChildAgeMaxOrMin"  Background="{x:Null}" BorderBrush="DarkCyan" Height="40" Width="240" Click="GroupNannyByChildAgeMaxOrMin_Click" >
+                                <TextBlock Text="Nanny by max or min child age" FontSize="20" TextWrapping="Wrap" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" />
+                            </Button>
+                            <Button x:Name="GroupContractByDistanceBetweenNannyAndChild" Background="{x:Null}" BorderBrush="DarkCyan" Height="40" Width="165" Click="GroupContractByDistanceBetweenNannyAndChild_Click" >
+                                <TextBlock Text="contract by distance" FontSize="20" TextWrapping="Wrap" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" />
+                            </Button>
+                            <Label Content="do you want the groups sort?" Margin="3" FontFamily="Monotype Corsiva" FontSize="18" />
+                            <CheckBox x:Name="sortCheckBox" Margin="10"/>
+
+                            <CheckBox Content="max" x:Name="maxCheckBox" Click="maxCheckBox_Click" Margin="150,10,20,5"  FontFamily="Monotype Corsiva" FontSize="18"/>
+                            <CheckBox Content="min" x:Name="minCheckBox" Click="minCheckBox_Click" Margin="0,10,20,5"  FontFamily="Monotype Corsiva" FontSize="18" />
+                        </WrapPanel>
+                    </Grid>
+                </TabItem>
+
+                <TabItem Header="Other Options" Width="120" FontFamily="Monotype Corsiva" HorizontalAlignment="Center" FontSize="20" Foreground="#FF0B997F">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <WrapPanel HorizontalAlignment="Center">
+                            <Button x:Name="ChildWithoutNanny"  Background="{x:Null}" BorderBrush="DarkCyan" Height="50" Width="170" Click="ChildWithoutNanny_Click">
+                                <TextBlock Text="Get all childs without nanny " FontSize="20" TextWrapping="Wrap" Foreground="Black" TextAlignment="Center" />
+                            </Button>
+                            <Button x:Name="Tamat" Background="{x:Null}" BorderBrush="DarkCyan" Height="50" Width="210" Click="Tamat_Click" >
+                                <TextBlock Text="Which nanny has tamat vacation? " FontSize="20" TextWrapping="Wrap" Foreground="Black" TextAlignment="Center" />
+                            </Button>
+                            <Button x:Name="SelectedContracts" Background="{x:Null}" BorderBrush="DarkCyan" Height="50" Width="210" Click="SelectedContracts_Click">
+                                <TextBlock Text="Selecte contracts with your condition " FontSize="20" TextWrapping="Wrap" Foreground="Black" TextAlignment="Center" />
+                            </Button>
+
+                            <ComboBox x:Name="conditionsComboBox" Visibility="Collapsed" Height="50" Width="200" SelectionChanged="conditionsComboBox_SelectionChanged" />
+                            <TextBox x:Name="conditionsTextBox" Visibility="Collapsed" Height="50" Width="170" />
+                            <Button x:Name="goButton" Content="GO" Visibility="Collapsed" FontFamily="Narkisim" Click="goButton_Click" >
+                                <Button.Style>
+                                    <Style>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding ElementName=conditionsComboBox, Path=SelectionBoxItem}" Value="">
+                                                <Setter Property="Button.IsEnabled" Value="false"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding ElementName=conditionsTextBox, Path=Text}" Value="">
+                                                <Setter Property="Button.IsEnabled" Value="false"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                            <TextBlock Text="Number of contracts: " x:Name="contractsNumTextBox" Visibility="Collapsed" Height="50" Width="250" Foreground="#FFE60000" HorizontalAlignment="Center" VerticalAlignment="Bottom" TextAlignment="Center" FontSize="24" FontFamily="Narkisim"/>
+                            
+
+                        </WrapPanel>
+                        <WrapPanel Grid.Row="1" HorizontalAlignment="Center">
+                            <TextBlock Height="50" Width="200" Text="enter mother id:" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" />
+                            <TextBox x:Name="motherIDTextBox" Height="50" Width="170" BorderBrush="DarkCyan" />
+                            <Button x:Name="Selectedmothers" Background="{x:Null}" BorderBrush="DarkCyan" Height="50" Width="220" Click="Selectedmothers_Click" >
+                                <TextBlock Text="get all mothers next to you " FontSize="20" TextWrapping="Wrap" Foreground="Black" TextAlignment="Center" />
+                                <Button.Style>
+                                    <Style>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding ElementName=motherIDTextBox, Path=Text}" Value="">
+                                                <Setter Property="Button.IsEnabled" Value="false"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                        </WrapPanel>
+                        <ListView x:Name="list" Grid.Row="2" FontFamily="Narkisim" />
+                    </Grid>
+                </TabItem>
+            </TabControl.Items>
+        </TabControl>
+    </Grid>
+</Window>

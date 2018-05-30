@@ -1,0 +1,33 @@
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\ConsoleAppUI.exe.config
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\obj\Debug\ConsoleAppUI.csprojResolveAssemblyReference.cache
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\ConsoleAppUI.exe
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\ConsoleAppUI.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\BE.dll
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\BL.dll
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\DAL.dll
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\GoogleMapsApi.dll
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\DS.dll
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\Newtonsoft.Json.dll
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\BE.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\BL.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\DAL.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\DS.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\obj\Debug\ConsoleAppUI.exe
+Z:\c# project\dotNet5778_Project_0920_9377\ConsoleAppUI\obj\Debug\ConsoleAppUI.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\ConsoleAppUI.exe.config
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\ConsoleAppUI.exe
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\ConsoleAppUI.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\BE.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\BL.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\DAL.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\GoogleMapsApi.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\DS.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\BE.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\BL.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\DAL.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\bin\Debug\DS.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\obj\Debug\ConsoleAppUI.csprojResolveAssemblyReference.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\obj\Debug\ConsoleAppUI.csproj.CoreCompileInputs.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\obj\Debug\ConsoleAppUI.exe
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\ConsoleAppUI\obj\Debug\ConsoleAppUI.pdb

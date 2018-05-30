@@ -1,0 +1,140 @@
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.exe.config
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.exe
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MainWindow.g.cs
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\App.g.cs
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MainWindow.baml
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.g.resources
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.exe
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\ChildOptionsWindow.g.cs
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\ContractOptionsWindow.g.cs
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MotherOptionsWindow.g.cs
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\NannyOptionsWindow.g.cs
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BE.dll
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BL.dll
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DAL.dll
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\GoogleMapsApi.dll
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DS.dll
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\Newtonsoft.Json.dll
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BE.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BL.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DAL.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DS.pdb
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\ChildOptionsWindow.baml
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\ContractOptionsWindow.baml
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MotherOptionsWindow.baml
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\NannyOptionsWindow.baml
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddMotherWindow.g.cs
+Z:\c# project\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddMotherWindow.baml
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddMotherWindow.g.cs
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\ChildOptionsWindow.g.cs
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\ContractOptionsWindow.g.cs
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MotherOptionsWindow.g.cs
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\NannyOptionsWindow.g.cs
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\App.g.cs
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BE.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BL.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DAL.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\GoogleMapsApi.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DS.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BE.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BL.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DAL.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DS.pdb
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddMotherWindow.baml
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\ChildOptionsWindow.baml
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\ContractOptionsWindow.baml
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MotherOptionsWindow.baml
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\NannyOptionsWindow.baml
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+C:\Users\Eliezer\Downloads\dotNet5778_Project_0920_9377\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.csproj.CoreCompileInputs.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BE.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BL.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DAL.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\GoogleMapsApi.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DS.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BE.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\BL.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DAL.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\DS.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddChildWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddContractWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddMotherWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddNannyWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\Constraints.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\DeleteChildWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\DeleteContractWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\DeleteMotherWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\DeleteNannyWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\EditSchedule.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetChildsListByMotherWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetChildsListWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetContractsListWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetMothersListWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetNannysListWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GroupingUserControl.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateChildWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateContractWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateMotherWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateNannyWindow.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateSchedule.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\App.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\App.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddChildWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddContractWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddMotherWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\AddNannyWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\Constraints.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\DeleteChildWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\DeleteContractWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\DeleteMotherWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\DeleteNannyWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\EditSchedule.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetChildsListByMotherWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetChildsListWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetContractsListWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetMothersListWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GetNannysListWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\GroupingUserControl.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateChildWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateContractWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateMotherWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateNannyWindow.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\UpdateSchedule.baml
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.csproj.CoreCompileInputs.cache
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\PLWPF.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\RateNanny.g.cs
+C:\Users\owner\Documents\Reut\c#\פרוייקט\dotNet5778_Project_0920_9377\PLWPF\obj\Debug\RateNanny.baml

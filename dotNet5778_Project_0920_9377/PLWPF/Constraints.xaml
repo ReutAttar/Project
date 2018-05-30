@@ -1,0 +1,141 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.Constraints"
+        mc:Ignorable="d"
+        Title="Constraints" Height="450" Width="400">
+    <ScrollViewer>
+        <Grid>
+            <TabControl>
+                <TabItem Header="Find nanny" FontFamily="Monotype Corsiva" FontSize="20" >
+                    <Grid x:Name="grid" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Nanny age:" Margin="3" />
+                        <TextBox x:Name="NannyAgeTextBox" Text="{Binding Experience}" Margin="3" Grid.Column="1"/>
+                        <Label Content="Child Age:" Margin="3" Grid.Row="1"/>
+                        <TextBox x:Name="ChildAgeTextBox" Grid.Row="1" Text="{Binding Experience}" Margin="3" Grid.Column="1"/>
+                        <Label Content="Max payment:" Margin="3" Grid.Row="2" />
+                        <TextBox x:Name="MaxpaymentTextBox" Text="{Binding Experience}" Margin="3" Grid.Row="2" Grid.Column="1"/>
+                        <Label Content="Max Childs:" Margin="3" Grid.Row="3"/>
+                        <TextBox x:Name="MaxChildsTextBox" Text="{Binding Experience}" Margin="3" Grid.Row="3" Grid.Column="1"/>
+                        <Label Content="Experience:" Margin="3" Grid.Row="4" />
+                        <TextBox x:Name="experienceTextBox" Text="{Binding Experience}" Margin="3" Grid.Row="4" Grid.Column="1"/>
+                        <Grid Grid.Row="5" Grid.ColumnSpan="2" Margin="3">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Your requested hours:" Grid.ColumnSpan="3" HorizontalAlignment="Center" Margin="5" />
+
+                            <TextBlock x:Name="Sunday" Text="Sunday:" Grid.Row="1" Padding="10" FontSize="18" />
+                            <TextBlock x:Name="Monday" Text="Monday:" Grid.Row="2" Padding="10" FontSize="18" />
+                            <TextBlock x:Name="Tuesday" Text="Tuesday:" Grid.Row="3" Padding="10" FontSize="18"  />
+                            <TextBlock x:Name="Wednesday" Text="Wednesday:" Grid.Row="4" Padding="10" FontSize="18"  />
+                            <TextBlock x:Name="Thursday" Text="Thursday:" Grid.Row="5" Padding="10" FontSize="18"   />
+
+                            <TextBlock x:Name="startSunday" Grid.Column="1" TextWrapping="Wrap" Grid.Row="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  TextAlignment="Center"/>
+                            <TextBlock x:Name="endSunday" Grid.Column="2" TextWrapping="Wrap" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextAlignment="Center" />
+                            <TextBlock x:Name="startMonday" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="2" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="endMonday"  Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Stretch"  TextAlignment="Center"/>
+                            <TextBlock x:Name="startTuesday" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Stretch"  TextAlignment="Center" />
+                            <TextBlock x:Name="endTuesday" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="startWednesday" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="4" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="endWednesday" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="4" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="startThursday" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="5" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="endThursday" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="5" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                        </Grid>
+                        <Button x:Name="Find" Content="Find" Grid.Row="6" Margin="5" Grid.ColumnSpan="3" Click="Find_Click"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Find nanny by address" FontFamily="Monotype Corsiva" FontSize="20">
+                    <Grid x:Name="grid1" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Nanny age:" Margin="3" />
+                        <TextBox x:Name="NannyAgeTextBox1" Text="{Binding NannyAge}" Margin="3" Grid.Column="1"/>
+                        <Label Content="Child Age:" Margin="3" Grid.Row="1"/>
+                        <TextBox x:Name="ChildAgeTextBox1" Grid.Row="1" Text="{Binding ChildAge}" Margin="3" Grid.Column="1"/>
+                        <Label Content="Max payment:" Margin="3" Grid.Row="2" />
+                        <TextBox x:Name="MaxpaymentTextBox1" Text="{Binding Maxpayment}" Margin="3" Grid.Row="2" Grid.Column="1"/>
+                        <Label Content="Max Childs:" Margin="3" Grid.Row="3"/>
+                        <TextBox x:Name="MaxChildsTextBox1" Text="{Binding MaxChilds}" Margin="3" Grid.Row="3" Grid.Column="1"/>
+                        <Label Content="Experience:" Margin="3" Grid.Row="4" />
+                        <TextBox x:Name="experienceTextBox1" Text="{Binding Experience}" Margin="3" Grid.Row="4" Grid.Column="1"/>
+                        <Label Content="Distance:" Margin="3" Grid.Row="5" />
+                        <TextBox x:Name="DistanceTextBox1" Text="{Binding Distance}" Margin="3" Grid.Row="5" Grid.Column="1"/>
+                        <Grid Grid.Row="6" Grid.ColumnSpan="2" Margin="3">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Your requested hours:" Grid.ColumnSpan="3" HorizontalAlignment="Center" Margin="5" />
+
+                            <TextBlock x:Name="Sunday1" Text="Sunday:" Grid.Row="1" Padding="10" FontSize="18" />
+                            <TextBlock x:Name="Monday1" Text="Monday:" Grid.Row="2" Padding="10" FontSize="18" />
+                            <TextBlock x:Name="Tuesday1" Text="Tuesday:" Grid.Row="3" Padding="10" FontSize="18"  />
+                            <TextBlock x:Name="Wednesday1" Text="Wednesday:" Grid.Row="4" Padding="10" FontSize="18"  />
+                            <TextBlock x:Name="Thursday1" Text="Thursday:" Grid.Row="5" Padding="10" FontSize="18"   />
+
+                            <TextBlock x:Name="startSunday1" Grid.Column="1" TextWrapping="Wrap" Grid.Row="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  TextAlignment="Center"/>
+                            <TextBlock x:Name="endSunday1" Grid.Column="2" TextWrapping="Wrap" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextAlignment="Center" />
+                            <TextBlock x:Name="startMonday1" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="2" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="endMonday1"  Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Stretch"  TextAlignment="Center"/>
+                            <TextBlock x:Name="startTuesday1" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Stretch"  TextAlignment="Center" />
+                            <TextBlock x:Name="endTuesday1" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="3" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="startWednesday1" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="4" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="endWednesday1" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="4" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="startThursday1" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="5" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                            <TextBlock x:Name="endThursday1" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="5" TextWrapping="Wrap"  VerticalAlignment="Stretch" TextAlignment="Center"/>
+                        </Grid>
+                        <Button x:Name="FindByAddress" Content="Find" Grid.Row="11" Margin="5" Grid.ColumnSpan="3" Click="FindByAddress_Click" />
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </ScrollViewer>
+</Window>
